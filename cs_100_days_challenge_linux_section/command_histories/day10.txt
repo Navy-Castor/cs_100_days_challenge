@@ -1,0 +1,103 @@
+    1  ls
+    2  mkdir cp_folder
+    3  date > cp_file1.txt
+    4  cat cp_file1.txt
+    5  cd cp_folder/
+    6  cp cp_file1.txt cp_file2.txt
+    7  cat cp_file2.txt
+    8  ls
+    9  cat >> cp_file1.txt 
+   10  cat >> cp_file1.txt
+   11  clear
+   12  cat cp_file1.txt 
+   13  cp cp_file1.txt cp_file2.txt 
+   14  cat cp_file2.txt 
+   15  mkdir cp_dir1/
+   16  ls
+   17  cat >> cp_file3.txt
+   18  ls
+   19  cp cp_file1.txt cp_dir1/
+   20  ls
+   21  ls -R
+   22  cp cp_file2.txt cp_file3.txt cp_dir1/
+   23  ls -R
+   24  clear
+   25  ls
+   26  cd ..
+   27  ls
+   28  cat > cs_file.txt
+   29  ls
+   30  cd ..
+   31  cp my_cs_challenge_folder/cs_file.txt my_cs_challenge_folder/cp_folder/cp_dir1/
+   32  cd my_cs_challenge_folder/cp_folder/
+   33  ls
+   34  ls cp_dir1/
+   35  cat cp_dir1/cs_file.txt
+   36  clear
+   37  cd
+   38  cd -
+   39  cd ..
+   40  cd -
+   41  ls
+   42  mkdir cp_dir2/
+   43  cd cp_dir2/
+   44  cat >> cp_nested_file1.txt
+   45  cat >> cp_nested_file2.txt
+   46  ls
+   47  cd ..
+   48  cd cp_dir1/
+   49  ls ../
+   50  cp ../cp_dir2/cp_nested_file1.txt ../cp_dir2/cp_nested_file2.txt .
+   51  ls
+   52  ls -a
+   53  ls ../
+   54  cd ..
+   55  cd cp_dir2/
+   56  cp ../cp_file1.txt ../cp_file2.txt ../cp_file3.txt .
+   57  ls
+   58  clear
+   59  cp cp_dir1/ cp_dir3/
+   60  cp -R cp_dir1/ cp_dir3/
+   61  cd ..
+   62  cp -R cp_dir1/ cp_dir3/
+   63  ls cp_dir3/
+   64  ls
+   65  touch cp_dir1/cp_file4.txt
+   66  cp -R cp_dir1/ cp_dir3/
+   67  ls cp_dir3/
+   68  clear
+   69  ls
+   70  cat cp_file3.txt
+   71  cat > cp_file4.txt
+   72  cp cp_file3.txt cp_file4.txt 
+   73  cat cp_file4.txt 
+   74  cp -i cp_file2.txt cp_file4.txt 
+   75  cat cp_file4.txt 
+   76  cp -i cp_file2.txt cp_file4.txt 
+   77  cat cp_file4.txt 
+   78  cp -u cp_file4.txt cp_file3.txt
+   79  cat cp_file3.txt
+   80  cat >> cp_file1.txt
+   81  cat cp_file1.txt
+   82  cp -u cp_file1.txt cp_file2.txt 
+   83  cat cp_file2.txt
+   84  cp -u cp_file3.txt cp_file2.txt 
+   85  cat cp_file2.txt
+   86  date >> cp_file3.txt
+   87  cat cp_file3.txt
+   88  date > cp_file2.txt
+   89  cat cp_file2.txt 
+   90  cp -u cp_file3.txt cp_file2.txt 
+   91  cat cp_file2.txt 
+   92  cp -u cp_file2.txt cp_file3.txt 
+   93  cat cp_file3.txt 
+   94  cat >> cp_file3.txt 
+   95  cat cp_file3.txt 
+   96  cp -u cp_file3.txt cp_file5.txt
+   97  cat cp_file5.txt 
+   98  cd ..
+   99  ls
+  100  cd command_histories/
+  101  touch day10.txt
+  102  history > day10.txt
+Thu Nov 20 02:16:04 PM UTC 2025

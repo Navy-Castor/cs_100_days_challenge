@@ -1,0 +1,43 @@
+    1  mkdir delete_folder
+    2  ls
+    3  rmdir delete_folder/
+    4  ls
+    5  mkdir java/ kotlin/ javascript/ python/
+    6  ls
+    7  rmdir java/ kotlin/ javascript/ python/
+    8  ls
+    9  mkdir english/ japanese/ thai/
+   10  mkdir english/chapter1
+   11  touch english/chapter1/lesson1.txt
+   12  ls english/chapter1/
+   13  rmdir english/ japanese/ thai/
+   14  mkdir -p japanese/chapter1
+   15  ls
+   16  rmdir japanese/
+   17  rm -r english/
+   18  ls
+   19  rm -r japanese/
+   20  ls
+   21  clear
+   22  mkdir languages/
+   23  ls
+   24  mkdir -p languages/english/chapter1
+   25  ls -R
+   26  ls -R languages/
+   27  rmdir languages/english/chapter1/
+   28  ls
+   29  ls -R languages/
+   30  mkdir languages/english/vocab
+   31  rmdir -p languages/english/vocab
+   32  ls
+   33  mkdir -pv languages/english/vocab
+   34  rmdir -pv languages/english/vocab/
+   35  cd
+   36  cd Desktop/
+   37  ls
+   38  cd my_cs_challenge_folder/
+   39  ls
+   40  cd command_histories/
+   41  touch day9.txt
+   42  history > day9.txt 
+Wed Nov 19 01:56:58 PM UTC 2025
