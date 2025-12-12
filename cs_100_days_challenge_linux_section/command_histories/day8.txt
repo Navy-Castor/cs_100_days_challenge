@@ -1,0 +1,32 @@
+    1  mkdir 'My Languages'
+    2  mkdir "My Projects"
+    3  mkdir Linux\ Tutorials
+    4  ls
+    5  mkdir 'My Labs' 'My Notes'
+    6  ls
+    7  mkdir Linux\ Tutorials/chapter1
+    8  ls Linux\ Tutorials
+    9  mkdir Linux\ Tutorials/chapter2
+   10  ls Linux\ Tutorials/
+   11  mkdir Linux\ Tutorials/chapter{3,4,5}
+   12  ls Linux\ Tutorials/
+   13  mkdir Linux\ Tutorials/{notes, commands}
+   14  ls Linux\ Tutorials/
+   15  rmdir {notes,
+   16  mkdir Linux\ Tutorials/{notes,commands}
+   17  ls Linux\ Tutorials/
+   18  clear
+   19  ls Linux\ Tutorials/
+   20  mkdir Java\ Tutorials/chapter1
+   21  mkdir -p Java\ Tutorials/chapter{1,2,3}
+   22  ls
+   23  ls Java\ Tutorials/
+   24  mkdir -pv React\ Project/{src,components,nodes}
+   25  cd ..
+   26  ls
+   27  cd command_histories/
+   28  touch day8.txt
+   29  history > day8.txt 
+   30  date > day8.txt 
+   31  history > day8.txt 
+Tue Nov 18 02:58:13 PM UTC 2025

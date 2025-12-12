@@ -1,0 +1,61 @@
+    1  ls
+    2  mkdir mv_dir2/
+    3  mv mv_dir/ mv_dir2/
+    4  ls
+    5  ls mv_dir2/
+    6  mv mv_dir2/ mv_dir3/
+    7  ls
+    8  ls mv_dir3/
+    9  ls
+   10  touch mv_file2.txt mv_file3.txt
+   11  mv mv_file2.txt mv_file3.txt mv_dir3/
+   12  ls mv_dir3/
+   13  ls
+   14  mv mv_file1.txt mv_dir3/
+   15  ls 
+   16  cd mv_dir3/
+   17  ls
+   18  mv * ..
+   19  ls ..
+   20  cd ..
+   21  ls
+   22  mkdir mv_dir4/
+   23  mv mv_dir3/* mv_dir4/
+   24  touch mv_dir3/mv_file1.txt mv_file2.txt
+   25  ls mv_dir3/
+   26  touch mv_dir3/mv_file2.txt
+   27  ls mv_dir3/
+   28  mv mv_dir3/* mv_dir4/
+   29  ls mv_dir4/
+   30  ls mv_dir3/
+   31  cd ..
+   32  ls 
+   33  cd command_histories/
+   34  touch day11.txt
+   35  history > day11.txt 
+   36  date >> day11.txt 
+   37  cd Desktop/my_cs_challenge_folder/
+   38  mkdir touch_folder
+   39  touch touch_file1.txt
+   40  cat > touch_file1.txt 
+   41  ls -lh touch_file1.txt 
+   42  touch touch_file1.txt
+   43  ls -lh touch_file1.txt 
+   44  cat touch_file
+   45  cat touch_file1.txt 
+   46  clear
+   47  mkdir nano_folder
+   48  nano nano_file1.txt
+   49  cat nano_file1.txt 
+   50  sudo apt install nano
+   51  ls
+   52  mv nano_file1.txt nano_folder/
+   53  cd nano_folder/
+   54  ls
+   55  nano nano_file1.txt 
+   56  cd ..
+   57  ls
+   58  cd command_histories/
+   59  touch day13.txt
+   60  history > day13.txt 
+Sun Nov 23 02:22:53 PM UTC 2025

@@ -1,0 +1,72 @@
+    1  cd
+    2  cd -
+    3  cd
+    4  cd -
+    5  cd home/navy_castor
+    6  cd /home/navy_castor/
+    7  pwd
+    8  cd /
+    9  cd ~
+   10  cd -
+   11  cd ~
+   12  cd Desktop/my_cs_challenge_folder/ls_folder/
+   13  pwd
+   14  cd ..
+   15  cd -
+   16  cd ls_folder/
+   17  cd ../..
+   18  cd my_cs_challenge_folder/ls_folder/
+   19  cd ../..
+   20  cd /home/navy_castor/Desktop/my_cs_challenge_folder/
+   21  ls
+   22  cd cd_folder/
+   23  ls
+   24  cd My Folder
+   25  cd 'My Folder'/
+   26  cd ..
+   27  "My Folder"/
+   28  cd "My Folder"/
+   29  cd ..
+   30  cd My\ Folder/
+   31  clear
+   32  cd ../..
+   33  mkdir cat_folder
+   34  cd cat_folder
+   35  cat
+   36  touch cat_file1.txt cat_file2.txt
+   37  date > cat_file.txt
+   38  pwd > cat_file
+   39  cat cat_file.txt
+   40  pwd > cat_file2.txt
+   41  cat cat_file2.txt
+   42  cat cat_file.txt cat_file2.txt
+   43  touch cat_file4.txt
+   44  cat cat_file4.txt 
+   45  cat -b cat_file4.txt
+   46  cat cat_file4.txt
+   47  cat -n cat_file4.txt
+   48  cat -s cat_file4.txt
+   49  cat cat_file4.txt
+   50  cat -E cat_file4.txt
+   51  clear
+   52  ls
+   53  touch cat_file5_combined.txt
+   54  cat cat_file5_combined.txt 
+   55  cat cat_file.txt cat_file2.txt cat_file1.txt
+   56  cat cat_file.txt cat_file4.txt > cat_file5_combined.txt 
+   57  cat cat_file5_combined.txt 
+   58  cat cat_file2.txt
+   59  cat cat_file2.txt > cat_file5_combined.txt 
+   60  cat_file5
+   61  cat cat_file5_combined.txt 
+   62  cat cat_file.txt cat_file4.txt >> cat_file5_combined.txt 
+   63  cat cat_file5_combined.txt 
+   64  cat cat_file5_combined.txt > cat_file6_new.txt
+   65  cat cat_file6_new.txt 
+   66  clear
+   67  cd ..
+   68  ls
+   69  mkdir command_histories
+   70  touch day_7.txt
+   71  history> day7.txt
+Mon Nov 17 04:11:57 PM UTC 2025
